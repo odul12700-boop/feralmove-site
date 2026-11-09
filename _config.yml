@@ -1,0 +1,19 @@
+# ============================================
+# CONFIGURATION DU SITE FERALMOVE
+# (repris du gabarit de feralsync.com)
+# ============================================
+title: FeralMove
+description: "FeralMove : séances de sport guidées à la voix, adaptées à ton matériel. Hors ligne, sans compte, sans collecte de données."
+url: "https://feralmove.com"
+lang: fr
+# Adresse de contact publique (la même que FeralSync)
+email: contact@feralsync.com
+# Moteur de construction
+markdown: kramdown
+# Plugins Jekyll (pris en charge nativement par GitHub Pages)
+# jekyll-sitemap : génère automatiquement /sitemap.xml.
+plugins:
+  - jekyll-sitemap
+# Fichiers à ne pas publier
+exclude:
+  - README.md

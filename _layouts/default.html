@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <!-- Icône de l'onglet : anneau du timer, en attendant un logo FeralMove. -->
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/img/favicon.svg' | relative_url }}">
+  <!-- Aperçu de partage (sans image tant qu'il n'y a pas de visuel FeralMove). -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:locale" content="fr_FR">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="{{ '/assets/css/feral.css' | relative_url }}">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="{{ '/' | relative_url }}" class="brand">
+        <span class="brand-text">
+          <span class="brand-feral">Feral</span><span class="brand-move">Move</span>
+        </span>
+      </a>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}">Accueil</a>
+        <a href="{{ '/privacy/' | relative_url }}">Confidentialité</a>
+        <a href="{{ '/mentions-legales/' | relative_url }}">Mentions légales</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    {{ content }}
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p class="disclaimer">
+        FeralMove ne remplace pas un avis médical. Consulte un professionnel de
+        santé avant de reprendre une activité physique si tu as un doute.
+      </p>
+      <p class="legal-links">
+        <a href="{{ '/mentions-legales/' | relative_url }}">Mentions légales</a> ·
+        <a href="{{ '/privacy/' | relative_url }}">Politique de confidentialité</a> ·
+        <a href="mailto:{{ site.email }}">Contact</a> ·
+        <a href="https://feralsync.com">FeralSync</a>
+      </p>
+      <p class="copyright">© {{ 'now' | date: "%Y" }} FeralMove — Fargam</p>
+    </div>
+  </footer>
+</body>
+</html>
