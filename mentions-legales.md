@@ -20,6 +20,7 @@ Nom commercial : **Fargam**<br>
 - Code APE : 5829C — Édition de logiciels applicatifs
 - Registre : immatriculée au Registre national des entreprises (RNE)
 - Contact : [contact@feralsync.com](mailto:contact@feralsync.com)
+- Téléphone : 06 89 68 94 04
 
 <!-- Si vous relevez de la franchise en base de TVA (cas courant en
      micro-entreprise), décommentez la ligne ci-dessous. Vérifiez votre
