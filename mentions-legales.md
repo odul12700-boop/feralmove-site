@@ -83,7 +83,10 @@ informations qui y figurent.
 ## Données personnelles
 
 Ce site ne dépose aucun cookie, n'utilise aucun outil de mesure d'audience et
-ne collecte aucune donnée. L'application FeralMove non plus : voir la
+ne collecte aucune donnée. Comme pour tout site web, l'hébergeur (GitHub) peut
+enregistrer techniquement l'adresse IP des visiteurs dans ses journaux de
+serveur, pour la sécurité et le bon fonctionnement du service ; l'éditeur n'y
+a pas accès. L'application FeralMove non plus : voir la
 [politique de confidentialité]({{ '/privacy/' | relative_url }}).
 
 ## Contact

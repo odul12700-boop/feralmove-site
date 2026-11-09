@@ -214,14 +214,6 @@ hr {
 
 .home-hero-lede { font-size: 17px; line-height: 1.7; margin: 0 0 26px; }
 
-.home-hero-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 14px;
-  margin-bottom: 22px;
-}
-.home-hero-actions .btn { margin: 0; }
-
 .home-store {
   display: flex;
   align-items: center;
@@ -284,7 +276,6 @@ hr {
 }
 .home-pillar:hover { border-color: var(--secondary); }
 .home-pillar-icon { color: var(--secondary); margin-bottom: 14px; }
-.home-pillar-icon .knob { fill: var(--surface); }
 .home-pillar h3 { margin: 0 0 10px; }
 .home-pillar p { margin: 0; font-size: 15px; line-height: 1.65; color: var(--text); }
 
@@ -293,8 +284,6 @@ hr {
   .home-hero { grid-template-columns: 1fr; }
   .home-hero-text { padding: 32px 22px 28px; }
   .home-hero-panel { border-left: none; border-top: 1px solid var(--outline); }
-  .home-hero-actions { flex-direction: column; align-items: stretch; }
-  .home-hero-actions .btn { text-align: center; }
   .home-pillars { grid-template-columns: 1fr; gap: 16px; }
 }
 
@@ -334,6 +323,23 @@ hr {
 
 /* Respiration sous l'en-tête : .container (classe) écrase le padding de main */
 main.container { padding-top: 32px; padding-bottom: 48px; }
+
+/* Carte mise en avant (règle reprise de la charte des articles de feralsync.com) */
+.card--accent { border-left: 3px solid var(--primary); }
+
+/* Étiquette « Premium » à côté d'un titre */
+.home-tag {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 8px;
+  padding: 2px 10px;
+  border: 1px solid var(--secondary);
+  border-radius: 999px;
+  color: var(--secondary);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
 
 /* Pages légales */
 .legal-updated { color: var(--text-muted); font-style: italic; }

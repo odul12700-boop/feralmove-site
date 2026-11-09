@@ -58,7 +58,7 @@ description: "FeralMove : séances de sport guidées à la voix, adaptées au ma
       <path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/>
     </svg>
     <h3>Guidé à la voix</h3>
-    <p>Chaque mouvement est annoncé avec son point clé, les décomptes et les transitions. L'écran ne sert qu'à vérifier : tes yeux restent sur ton geste.</p>
+    <p>Chaque mouvement est annoncé avec son point clé, les séries et les transitions. L'écran ne sert qu'à vérifier : tes yeux restent sur ton geste.</p>
   </article>
   <article class="home-pillar">
     <svg class="home-pillar-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" aria-hidden="true">
@@ -75,11 +75,11 @@ description: "FeralMove : séances de sport guidées à la voix, adaptées au ma
       <path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
     <h3>Hors ligne, sans compte</h3>
-    <p>Aucune connexion, aucun compte, aucune donnée collectée. Tes séances restent sur ton téléphone, et la voix est celle de ton téléphone.</p>
+    <p>Aucune connexion, aucun compte, aucune donnée collectée. Tes séances sont stockées sur ton téléphone, et la voix est celle de ton téléphone.</p>
   </article>
 </section>
 
-<h2 class="home-section-title">Le Programme Feral</h2>
+<h2 class="home-section-title">Le Programme Feral <span class="home-tag">Premium</span></h2>
 
 <div class="card card--accent">
   <p>Un programme complet et vivant pour durer : force, puissance, tendons, endurance, mobilité et équilibre. Trois paliers, <strong>Éveil</strong>, <strong>Instinct</strong> et <strong>Feral</strong>, que tu franchis quand ton corps est prêt. De 3 à 7 séances par semaine, de 30, 45 ou 60 minutes, au poids du corps, avec des variantes plus dures selon ton matériel.</p>
